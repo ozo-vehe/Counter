@@ -33,6 +33,41 @@
   }
 }
 
+/* Counter Assignment Styles */
+.counterContainer {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #e9e9e9;
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.counter p {
+  margin: 0px;
+}
+.count {
+  font-size: 4rem;
+  margin: 0px;
+}
+.counterButtons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.counterButtons * {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 5px 6px;
+  border-radius: 3px;
+  background-color: lightgray;
+}
+
+
+
 .card {
   padding: 2em;
 }
